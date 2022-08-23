@@ -16,4 +16,4 @@ jobs:
     - name: Run tests
       run: sudo xcode-select -switch /Applications/Xcode.app
     - name: Build App
-      run: fastlane beta
+      run: fastlane tests
