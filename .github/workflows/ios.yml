@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Force Xcode
+      run: sudo xcode-select -switch /Applications/Xcode.app
     - name: Run tests
       run: fastlane tests
