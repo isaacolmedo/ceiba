@@ -18,6 +18,6 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :tests do
-    run_tests(scheme: "Ceiba")
+    run_tests(scheme: "Ceiba", devices: ["iPhone 11"])
   end
 end
