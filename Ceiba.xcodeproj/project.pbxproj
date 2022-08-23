@@ -25,9 +25,9 @@
 		1524D25B28B47E6F00A6C2CF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25A28B47E6F00A6C2CF /* Repository.swift */; };
 		1524D25D28B47E8200A6C2CF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25C28B47E8200A6C2CF /* HTTPMethod.swift */; };
 		1524D26128B47ECB00A6C2CF /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26028B47ECB00A6C2CF /* UserRepository.swift */; };
-		1524D26428B47F0200A6C2CF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26328B47F0200A6C2CF /* UserService.swift */; };
+		1524D26428B47F0200A6C2CF /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26328B47F0200A6C2CF /* Service.swift */; };
 		1524D26628B47F2600A6C2CF /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26528B47F2600A6C2CF /* UserAPI.swift */; };
-		1524D26828B4815100A6C2CF /* UserServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26728B4815100A6C2CF /* UserServiceTests.swift */; };
+		1524D26828B4815100A6C2CF /* UserAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D26728B4815100A6C2CF /* UserAPITests.swift */; };
 		1551DD3B28B48B1100E93979 /* UsersRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD3A28B48B1100E93979 /* UsersRepositoryTests.swift */; };
 		1551DD3E28B48D0600E93979 /* PostsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD3D28B48D0600E93979 /* PostsRepositoryTests.swift */; };
 		1551DD4028B48D3100E93979 /* PostsByUserRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1551DD3F28B48D3100E93979 /* PostsByUserRepositoryTests.swift */; };
@@ -67,9 +67,9 @@
 		1524D25A28B47E6F00A6C2CF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		1524D25C28B47E8200A6C2CF /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		1524D26028B47ECB00A6C2CF /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
-		1524D26328B47F0200A6C2CF /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		1524D26328B47F0200A6C2CF /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		1524D26528B47F2600A6C2CF /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
-		1524D26728B4815100A6C2CF /* UserServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTests.swift; sourceTree = "<group>"; };
+		1524D26728B4815100A6C2CF /* UserAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPITests.swift; sourceTree = "<group>"; };
 		1551DD3A28B48B1100E93979 /* UsersRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepositoryTests.swift; sourceTree = "<group>"; };
 		1551DD3D28B48D0600E93979 /* PostsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepositoryTests.swift; sourceTree = "<group>"; };
 		1551DD3F28B48D3100E93979 /* PostsByUserRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsByUserRepositoryTests.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			children = (
 				1551DD4128B48E2000E93979 /* Spys */,
 				1551DD3C28B48CE600E93979 /* UserRepository */,
-				1524D26728B4815100A6C2CF /* UserServiceTests.swift */,
+				1524D26728B4815100A6C2CF /* UserAPITests.swift */,
 			);
 			path = CeibaTests;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 		1524D26228B47EE700A6C2CF /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				1524D26328B47F0200A6C2CF /* UserService.swift */,
+				1524D26328B47F0200A6C2CF /* Service.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -348,7 +348,7 @@
 				1524D21528B46D9000A6C2CF /* SceneDelegate.swift in Sources */,
 				1524D25628B47E3100A6C2CF /* GetPostsResponse.swift in Sources */,
 				1524D24B28B47D8A00A6C2CF /* Company.swift in Sources */,
-				1524D26428B47F0200A6C2CF /* UserService.swift in Sources */,
+				1524D26428B47F0200A6C2CF /* Service.swift in Sources */,
 				1524D24F28B47DB300A6C2CF /* Address.swift in Sources */,
 				1524D24D28B47DA000A6C2CF /* Geo.swift in Sources */,
 				1524D25428B47E1800A6C2CF /* PostResponseElement.swift in Sources */,
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1524D26828B4815100A6C2CF /* UserServiceTests.swift in Sources */,
+				1524D26828B4815100A6C2CF /* UserAPITests.swift in Sources */,
 				1551DD3E28B48D0600E93979 /* PostsRepositoryTests.swift in Sources */,
 				1551DD4028B48D3100E93979 /* PostsByUserRepositoryTests.swift in Sources */,
 				1551DD4528B48E3C00E93979 /* NetworUsersResponseSpy.swift in Sources */,

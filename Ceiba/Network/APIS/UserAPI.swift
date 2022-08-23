@@ -8,6 +8,6 @@
 import Foundation
 import Combine
 
-struct UserAPI: UserService {
+struct UserAPI: Service {
     let network: Network
 }
