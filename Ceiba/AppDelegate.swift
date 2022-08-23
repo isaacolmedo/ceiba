@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Ceiba
 //
-//  Created by Miguel Olmedo on 22/08/22.
+//  Created by Isaac Olmedo on 22/08/22.
 //
 
 import UIKit
