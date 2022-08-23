@@ -1,0 +1,19 @@
+name: iOS starter workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build and Test default scheme using any available iPhone simulator
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Force Xcode
+      run: sudo xcode-select -switch /Applications/Xcode.app
+    - name: Run tests
+      run: fastlane tests

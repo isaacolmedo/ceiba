@@ -1,5 +1,5 @@
 //
-//  UserServiceTests.swift
+//  UserAPITests.swift
 //  CeibaTests
 //
 //  Created by Isaac Olmedo on 22/08/22.
@@ -9,7 +9,7 @@ import XCTest
 import Combine
 @testable import Ceiba
 
-class UserServiceTests: XCTestCase {
+class UserAPITests: XCTestCase {
 
     var bag = Set<AnyCancellable>()
 

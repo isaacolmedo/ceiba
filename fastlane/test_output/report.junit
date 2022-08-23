@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='CeibaTests.xctest' tests='20' failures='0'>
+  <testsuite name='CeibaTests.PostsByUserRepositoryTests' tests='6' failures='0'>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_base_url' time='0.007'/>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_method' time='0.002'/>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_path' time='0.001'/>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_queryItems' time='0.001'/>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_url' time='0.003'/>
+    <testcase classname='CeibaTests.PostsByUserRepositoryTests' name='test_urlComponents' time='0.003'/>
+  </testsuite>
+  <testsuite name='CeibaTests.PostsRepositoryTests' tests='6' failures='0'>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_base_url' time='0.001'/>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_method' time='0.002'/>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_path' time='0.002'/>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_queryItems' time='0.001'/>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_url' time='0.001'/>
+    <testcase classname='CeibaTests.PostsRepositoryTests' name='test_urlComponents' time='0.002'/>
+  </testsuite>
+  <testsuite name='CeibaTests.UserAPITests' tests='2' failures='0'>
+    <testcase classname='CeibaTests.UserAPITests' name='test_get_all_posts_fetched' time='0.004'/>
+    <testcase classname='CeibaTests.UserAPITests' name='test_get_all_users_fetched' time='0.002'/>
+  </testsuite>
+  <testsuite name='CeibaTests.UsersRepositoryTests' tests='6' failures='0'>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_base_url' time='0.001'/>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_method' time='0.001'/>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_path' time='0.001'/>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_queryItems' time='0.001'/>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_url' time='0.002'/>
+    <testcase classname='CeibaTests.UsersRepositoryTests' name='test_urlComponents' time='0.002'/>
+  </testsuite>
+</testsuites>
