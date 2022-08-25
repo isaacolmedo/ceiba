@@ -21,7 +21,7 @@ class UserAPITests: XCTestCase {
 
         sut.get(repository: repository)
             .replaceError(with: [])
-            .sink { (response: GetPostsResponse) in
+            .sink { (response: Posts) in
                 expectation.fulfill()
             }.store(in: &bag)
 
@@ -38,7 +38,7 @@ class UserAPITests: XCTestCase {
 
         sut.get(repository: repository)
             .replaceError(with: [])
-            .sink { (response: GetUsersResponse) in
+            .sink { (response: Users) in
                 expectation.fulfill()
             }.store(in: &bag)
 

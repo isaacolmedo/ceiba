@@ -14,7 +14,7 @@ class NetworUsersResponseSpy: Network {
     func fetch<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error> {
         self.fetchWasCalled = true
         return Future { promise in
-            let result: Response = GetUsersResponse() as! Response
+            let result: Response = Users() as! Response
             promise(.success(result))
         }.eraseToAnyPublisher()
     }
