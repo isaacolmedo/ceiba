@@ -11,7 +11,7 @@ import Combine
 
 class NetworkPostsResponseSpy: Network {
     var fetchWasCalled = false
-    func fetch<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error> {
+    func fetch<Response: Decodable>(repository: Repository) -> AnyPublisher<Response, Error> {
         self.fetchWasCalled = true
         return Future { promise in
             let result: Response = Posts() as! Response

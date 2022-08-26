@@ -10,12 +10,15 @@ import Foundation
 typealias UsersDTO = [UserDTO]
 
 // MARK: - UserDTO
-struct UserDTO: Decodable {
+struct UserDTO: Decodable, Equatable {
     let id: Int
     let name, username, email: String
     let address: AddressDTO
     let phone, website: String
     let company: CompanyDTO
+    static func ==(lhs: UserDTO, rhs: UserDTO) -> Bool {
+        return lhs.id == rhs.id
+    }
 }
 
 

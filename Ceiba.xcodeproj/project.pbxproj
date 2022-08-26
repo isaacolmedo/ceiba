@@ -11,6 +11,7 @@
 		1523613628B83A10009DBE74 /* UserResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613528B83A10009DBE74 /* UserResponseDTO+Mapping.swift */; };
 		1523613A28B83CD1009DBE74 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613928B83CD1009DBE74 /* UserStorage.swift */; };
 		1523613C28B83CE7009DBE74 /* CeibaUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613B28B83CE7009DBE74 /* CeibaUserStorage.swift */; };
+		1523614328B84E89009DBE74 /* CoreDataUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523614228B84E89009DBE74 /* CoreDataUserTests.swift */; };
 		1524D21328B46D9000A6C2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21228B46D9000A6C2CF /* AppDelegate.swift */; };
 		1524D21528B46D9000A6C2CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21428B46D9000A6C2CF /* SceneDelegate.swift */; };
 		1524D21728B46D9000A6C2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21628B46D9000A6C2CF /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		1523613528B83A10009DBE74 /* UserResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
 		1523613928B83CD1009DBE74 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		1523613B28B83CE7009DBE74 /* CeibaUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUserStorage.swift; sourceTree = "<group>"; };
+		1523614228B84E89009DBE74 /* CoreDataUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUserTests.swift; sourceTree = "<group>"; };
 		1524D20F28B46D9000A6C2CF /* Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1524D21228B46D9000A6C2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1524D21428B46D9000A6C2CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,22 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		1523613E28B84E35009DBE74 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1523613F28B84E41009DBE74 /* User */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1523613F28B84E41009DBE74 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				1523614228B84E89009DBE74 /* CoreDataUserTests.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		1524D20628B46D9000A6C2CF = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +236,7 @@
 		1524D22828B46D9600A6C2CF /* CeibaTests */ = {
 			isa = PBXGroup;
 			children = (
+				1523613E28B84E35009DBE74 /* CoreData */,
 				1551DD4128B48E2000E93979 /* Spys */,
 				1551DD3C28B48CE600E93979 /* UserRepository */,
 				1524D26728B4815100A6C2CF /* UserAPITests.swift */,
@@ -495,6 +514,7 @@
 				1551DD3E28B48D0600E93979 /* PostsRepositoryTests.swift in Sources */,
 				1551DD4028B48D3100E93979 /* PostsByUserRepositoryTests.swift in Sources */,
 				1551DD4528B48E3C00E93979 /* NetworUsersResponseSpy.swift in Sources */,
+				1523614328B84E89009DBE74 /* CoreDataUserTests.swift in Sources */,
 				1551DD4328B48E3400E93979 /* NetworkPostsResponseSpy.swift in Sources */,
 				1551DD3B28B48B1100E93979 /* UsersRepositoryTests.swift in Sources */,
 			);

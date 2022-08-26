@@ -22,11 +22,11 @@ final class CeibaStorage {
 
     // MARK: - Core Data stack
     private lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "CoreDataStorage")
+        let container = NSPersistentContainer(name: "CeibaStorage")
         container.loadPersistentStores { _, error in
             if let error = error as NSError? {
                 // TODO: - Log to Crashlytics
-                assertionFailure("CoreDataStorage Unresolved error \(error), \(error.userInfo)")
+                assertionFailure("CeibaStorage Unresolved error \(error), \(error.userInfo)")
             }
         }
         return container
@@ -40,7 +40,7 @@ final class CeibaStorage {
                 try context.save()
             } catch {
                 // TODO: - Log to Crashlytics
-                assertionFailure("CoreDataStorage Unresolved error \(error), \((error as NSError).userInfo)")
+                assertionFailure("CeibaStorage Unresolved error \(error), \((error as NSError).userInfo)")
             }
         }
     }
