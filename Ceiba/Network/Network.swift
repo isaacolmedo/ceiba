@@ -9,11 +9,11 @@ import Foundation
 import Combine
 
 public protocol Network {
-    func fetch<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error>
+    func fetch<Response: Decodable>(repository: Repository) -> AnyPublisher<Response, Error>
 }
 
 extension Network {
-    func fetch<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error> {
+    func fetch<Response: Decodable>(repository: Repository) -> AnyPublisher<Response, Error> {
         guard let url = repository.url else {
             debugPrint("Is not a URL \(repository.baseURL)\(repository.path)")
             return PassthroughSubject<Response, Error>().eraseToAnyPublisher()

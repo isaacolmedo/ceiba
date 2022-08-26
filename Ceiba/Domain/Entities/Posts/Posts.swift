@@ -6,3 +6,4 @@
 //
 
 public typealias Posts = [Post]
+

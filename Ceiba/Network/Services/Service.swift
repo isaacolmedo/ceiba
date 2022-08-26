@@ -10,16 +10,16 @@ import Combine
 
 protocol Service {
     var network: Network { get }
-    func get<Response: Codable>(repository: Repository, by userId: String) -> AnyPublisher<Response, Error>
-    func get<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error>
+    func get<Response: Decodable>(repository: Repository, by userId: String) -> AnyPublisher<Response, Error>
+    func get<Response: Decodable>(repository: Repository) -> AnyPublisher<Response, Error>
 }
 
 extension Service {
-    func get<Response: Codable>(repository: Repository, by userId: String) -> AnyPublisher<Response, Error> {
+    func get<Response: Decodable>(repository: Repository, by userId: String) -> AnyPublisher<Response, Error> {
         return network.fetch(repository: repository)
     }
 
-    func get<Response: Codable>(repository: Repository) -> AnyPublisher<Response, Error> {
+    func get<Response: Decodable>(repository: Repository) -> AnyPublisher<Response, Error> {
         return network.fetch(repository: repository)
     }
 }

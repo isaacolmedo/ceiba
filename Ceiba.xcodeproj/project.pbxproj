@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1523613028B83373009DBE74 /* UserEntity+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523612F28B83373009DBE74 /* UserEntity+Mapping.swift */; };
+		1523613628B83A10009DBE74 /* UserResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613528B83A10009DBE74 /* UserResponseDTO+Mapping.swift */; };
+		1523613A28B83CD1009DBE74 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613928B83CD1009DBE74 /* UserStorage.swift */; };
+		1523613C28B83CE7009DBE74 /* CeibaUserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523613B28B83CE7009DBE74 /* CeibaUserStorage.swift */; };
 		1524D21328B46D9000A6C2CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21228B46D9000A6C2CF /* AppDelegate.swift */; };
 		1524D21528B46D9000A6C2CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21428B46D9000A6C2CF /* SceneDelegate.swift */; };
 		1524D21728B46D9000A6C2CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D21628B46D9000A6C2CF /* ViewController.swift */; };
@@ -19,7 +23,6 @@
 		1524D24D28B47DA000A6C2CF /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D24C28B47DA000A6C2CF /* Geo.swift */; };
 		1524D24F28B47DB300A6C2CF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D24E28B47DB300A6C2CF /* Address.swift */; };
 		1524D25128B47DD200A6C2CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25028B47DD200A6C2CF /* User.swift */; };
-		1524D25428B47E1800A6C2CF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25328B47E1800A6C2CF /* Post.swift */; };
 		1524D25628B47E3100A6C2CF /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25528B47E3100A6C2CF /* Posts.swift */; };
 		1524D25828B47E4A00A6C2CF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25728B47E4A00A6C2CF /* Network.swift */; };
 		1524D25B28B47E6F00A6C2CF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1524D25A28B47E6F00A6C2CF /* Repository.swift */; };
@@ -36,6 +39,9 @@
 		1582D83B28B7D9C20044F5F9 /* CheckUsersExistUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582D83A28B7D9C20044F5F9 /* CheckUsersExistUseCase.swift */; };
 		1582D83D28B7DA560044F5F9 /* UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582D83C28B7DA560044F5F9 /* UseCase.swift */; };
 		1582D84028B7DB430044F5F9 /* AnyPublisher+async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582D83F28B7DB430044F5F9 /* AnyPublisher+async.swift */; };
+		1582D84428B7E0800044F5F9 /* CeibaStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582D84328B7E0800044F5F9 /* CeibaStorage.swift */; };
+		1582D84728B7E13A0044F5F9 /* CeibaStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1582D84528B7E1390044F5F9 /* CeibaStorage.xcdatamodeld */; };
+		1582D85F28B801D30044F5F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582D85E28B801D30044F5F9 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1523612F28B83373009DBE74 /* UserEntity+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+Mapping.swift"; sourceTree = "<group>"; };
+		1523613528B83A10009DBE74 /* UserResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
+		1523613928B83CD1009DBE74 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		1523613B28B83CE7009DBE74 /* CeibaUserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaUserStorage.swift; sourceTree = "<group>"; };
 		1524D20F28B46D9000A6C2CF /* Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ceiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1524D21228B46D9000A6C2CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1524D21428B46D9000A6C2CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +74,6 @@
 		1524D24C28B47DA000A6C2CF /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
 		1524D24E28B47DB300A6C2CF /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		1524D25028B47DD200A6C2CF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		1524D25328B47E1800A6C2CF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1524D25528B47E3100A6C2CF /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		1524D25728B47E4A00A6C2CF /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		1524D25A28B47E6F00A6C2CF /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -81,6 +90,9 @@
 		1582D83A28B7D9C20044F5F9 /* CheckUsersExistUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUsersExistUseCase.swift; sourceTree = "<group>"; };
 		1582D83C28B7DA560044F5F9 /* UseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCase.swift; sourceTree = "<group>"; };
 		1582D83F28B7DB430044F5F9 /* AnyPublisher+async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+async.swift"; sourceTree = "<group>"; };
+		1582D84328B7E0800044F5F9 /* CeibaStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaStorage.swift; sourceTree = "<group>"; };
+		1582D84628B7E1390044F5F9 /* CeibaStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CeibaStorage.xcdatamodel; sourceTree = "<group>"; };
+		1582D85E28B801D30044F5F9 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1523612C28B8320F009DBE74 /* CeibaStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1582D84328B7E0800044F5F9 /* CeibaStorage.swift */,
+				1582D84528B7E1390044F5F9 /* CeibaStorage.xcdatamodeld */,
+			);
+			path = CeibaStorage;
+			sourceTree = "<group>";
+		};
+		1523612D28B83341009DBE74 /* UserStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1523613728B83CA5009DBE74 /* UserStorage */,
+			);
+			path = UserStorage;
+			sourceTree = "<group>";
+		};
+		1523612E28B83350009DBE74 /* PostStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PostStorage;
+			sourceTree = "<group>";
+		};
+		1523613328B839C7009DBE74 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1523613428B839D6009DBE74 /* DataMapping */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1523613428B839D6009DBE74 /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				1523613528B83A10009DBE74 /* UserResponseDTO+Mapping.swift */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		1523613728B83CA5009DBE74 /* UserStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1523613928B83CD1009DBE74 /* UserStorage.swift */,
+				1523613D28B83CED009DBE74 /* CoreData */,
+				1523613828B83CBE009DBE74 /* Mapping */,
+			);
+			path = UserStorage;
+			sourceTree = "<group>";
+		};
+		1523613828B83CBE009DBE74 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				1523612F28B83373009DBE74 /* UserEntity+Mapping.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		1523613D28B83CED009DBE74 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1523613B28B83CE7009DBE74 /* CeibaUserStorage.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		1524D20628B46D9000A6C2CF = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +200,7 @@
 		1524D21128B46D9000A6C2CF /* Ceiba */ = {
 			isa = PBXGroup;
 			children = (
+				1582D84128B7E0190044F5F9 /* Data */,
 				1582D83E28B7DB380044F5F9 /* Common */,
 				1524D24528B47D5000A6C2CF /* Domain */,
 				1524D24228B471B200A6C2CF /* Network */,
@@ -193,7 +272,7 @@
 		1524D25228B47E0800A6C2CF /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				1524D25328B47E1800A6C2CF /* Post.swift */,
+				1582D85E28B801D30044F5F9 /* Post.swift */,
 				1524D25528B47E3100A6C2CF /* Posts.swift */,
 			);
 			path = Posts;
@@ -257,6 +336,25 @@
 				1582D83F28B7DB430044F5F9 /* AnyPublisher+async.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		1582D84128B7E0190044F5F9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1523613328B839C7009DBE74 /* Network */,
+				1582D84228B7E0200044F5F9 /* Storage */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1582D84228B7E0200044F5F9 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1523612E28B83350009DBE74 /* PostStorage */,
+				1523612D28B83341009DBE74 /* UserStorage */,
+				1523612C28B8320F009DBE74 /* CeibaStorage */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,16 +459,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1524D25D28B47E8200A6C2CF /* HTTPMethod.swift in Sources */,
+				1582D85F28B801D30044F5F9 /* Post.swift in Sources */,
 				1524D21728B46D9000A6C2CF /* ViewController.swift in Sources */,
 				1524D24928B47D7300A6C2CF /* Users.swift in Sources */,
+				1523613628B83A10009DBE74 /* UserResponseDTO+Mapping.swift in Sources */,
+				1582D84428B7E0800044F5F9 /* CeibaStorage.swift in Sources */,
 				1524D25828B47E4A00A6C2CF /* Network.swift in Sources */,
 				1524D26628B47F2600A6C2CF /* UserAPI.swift in Sources */,
 				1582D83B28B7D9C20044F5F9 /* CheckUsersExistUseCase.swift in Sources */,
+				1523613A28B83CD1009DBE74 /* UserStorage.swift in Sources */,
+				1523613028B83373009DBE74 /* UserEntity+Mapping.swift in Sources */,
 				1524D25B28B47E6F00A6C2CF /* Repository.swift in Sources */,
 				1524D21328B46D9000A6C2CF /* AppDelegate.swift in Sources */,
 				1582D83D28B7DA560044F5F9 /* UseCase.swift in Sources */,
 				1524D24428B471C100A6C2CF /* API.swift in Sources */,
 				1582D84028B7DB430044F5F9 /* AnyPublisher+async.swift in Sources */,
+				1582D84728B7E13A0044F5F9 /* CeibaStorage.xcdatamodeld in Sources */,
 				1524D25128B47DD200A6C2CF /* User.swift in Sources */,
 				1524D26128B47ECB00A6C2CF /* UserRepository.swift in Sources */,
 				1524D21528B46D9000A6C2CF /* SceneDelegate.swift in Sources */,
@@ -379,7 +483,7 @@
 				1524D26428B47F0200A6C2CF /* Service.swift in Sources */,
 				1524D24F28B47DB300A6C2CF /* Address.swift in Sources */,
 				1524D24D28B47DA000A6C2CF /* Geo.swift in Sources */,
-				1524D25428B47E1800A6C2CF /* Post.swift in Sources */,
+				1523613C28B83CE7009DBE74 /* CeibaUserStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +769,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1582D84528B7E1390044F5F9 /* CeibaStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1582D84628B7E1390044F5F9 /* CeibaStorage.xcdatamodel */,
+			);
+			currentVersion = 1582D84628B7E1390044F5F9 /* CeibaStorage.xcdatamodel */;
+			path = CeibaStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1524D20728B46D9000A6C2CF /* Project object */;
 }

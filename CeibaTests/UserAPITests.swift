@@ -38,7 +38,7 @@ class UserAPITests: XCTestCase {
 
         sut.get(repository: repository)
             .replaceError(with: [])
-            .sink { (response: Users) in
+            .sink { (response: UsersDTO) in
                 expectation.fulfill()
             }.store(in: &bag)
 
